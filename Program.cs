@@ -2,6 +2,16 @@
 using System.IO.Ports;
 using System.Reflection;
 
+/*
+{
+  "serial": {
+    "port" : "COM4"
+  },
+  "log":{
+    "path": "c:/temp/log"
+  }
+}
+*/
 Console.WriteLine("Lecture config");
 var executableFileName = Environment.ProcessPath;
 var jsonFileName = Path.ChangeExtension(executableFileName, ".json");
